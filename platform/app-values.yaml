@@ -10,7 +10,7 @@ image:
   #tag: latest
   tagRegex: '^\d*$'
   containerPort: 80
-  memoryLimit: 64Mi
+  memoryLimit: 128Mi
   cpuLimit: 1m
 ingress:
   custom_prefix: feb
